@@ -38,7 +38,38 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="447" y="370"/>
+            <point key="canvasLocation" x="425" y="370"/>
+        </scene>
+        <!--Name And Color View Controller-->
+        <scene sceneID="eCo-gn-fIG">
+            <objects>
+                <viewController id="MW9-N6-EJs" customClass="NameAndColorViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7JJ-Ox-95r"/>
+                        <viewControllerLayoutGuide type="bottom" id="tur-q8-utG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OBY-D9-1aN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0Od-og-uxD">
+                                <rect key="frame" x="0.0" y="28" width="414" height="708"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0Od-og-uxD" secondAttribute="trailing" id="BeY-Uu-bpp"/>
+                            <constraint firstItem="0Od-og-uxD" firstAttribute="bottom" secondItem="tur-q8-utG" secondAttribute="top" id="a7h-1c-pYs"/>
+                            <constraint firstItem="0Od-og-uxD" firstAttribute="leading" secondItem="OBY-D9-1aN" secondAttribute="leading" id="mo6-GD-CGo"/>
+                            <constraint firstItem="0Od-og-uxD" firstAttribute="top" secondItem="7JJ-Ox-95r" secondAttribute="bottom" constant="8" symbolic="YES" id="q2d-zf-KZH"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXV-dD-uOC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="975" y="370"/>
         </scene>
     </scenes>
 </document>

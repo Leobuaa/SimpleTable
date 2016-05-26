@@ -15,6 +15,8 @@
 		B3DE0ECF1CF68F54002229BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DE0ECD1CF68F54002229BD /* LaunchScreen.storyboard */; };
 		B3DE0EDA1CF68F54002229BD /* SimpleTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE0ED91CF68F54002229BD /* SimpleTableTests.m */; };
 		B3DE0EE51CF68F54002229BD /* SimpleTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE0EE41CF68F54002229BD /* SimpleTableUITests.m */; };
+		B3DE0EF41CF6A820002229BD /* NameAndColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE0EF31CF6A820002229BD /* NameAndColorCell.m */; };
+		B3DE0EFA1CF6AF24002229BD /* NameAndColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE0EF91CF6AF24002229BD /* NameAndColorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		B3DE0EE01CF68F54002229BD /* SimpleTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3DE0EE41CF68F54002229BD /* SimpleTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableUITests.m; sourceTree = "<group>"; };
 		B3DE0EE61CF68F54002229BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3DE0EF21CF6A820002229BD /* NameAndColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameAndColorCell.h; sourceTree = "<group>"; };
+		B3DE0EF31CF6A820002229BD /* NameAndColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameAndColorCell.m; sourceTree = "<group>"; };
+		B3DE0EF81CF6AF24002229BD /* NameAndColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameAndColorViewController.h; sourceTree = "<group>"; };
+		B3DE0EF91CF6AF24002229BD /* NameAndColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameAndColorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +111,11 @@
 				B3DE0EC31CF68F54002229BD /* AppDelegate.m */,
 				B3DE0EC51CF68F54002229BD /* ViewController.h */,
 				B3DE0EC61CF68F54002229BD /* ViewController.m */,
+				B3DE0EF21CF6A820002229BD /* NameAndColorCell.h */,
+				B3DE0EF31CF6A820002229BD /* NameAndColorCell.m */,
 				B3DE0EC81CF68F54002229BD /* Main.storyboard */,
+				B3DE0EF81CF6AF24002229BD /* NameAndColorViewController.h */,
+				B3DE0EF91CF6AF24002229BD /* NameAndColorViewController.m */,
 				B3DE0ECB1CF68F54002229BD /* Assets.xcassets */,
 				B3DE0ECD1CF68F54002229BD /* LaunchScreen.storyboard */,
 				B3DE0ED01CF68F54002229BD /* Info.plist */,
@@ -273,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3DE0EFA1CF6AF24002229BD /* NameAndColorViewController.m in Sources */,
+				B3DE0EF41CF6A820002229BD /* NameAndColorCell.m in Sources */,
 				B3DE0EC71CF68F54002229BD /* ViewController.m in Sources */,
 				B3DE0EC41CF68F54002229BD /* AppDelegate.m in Sources */,
 				B3DE0EC11CF68F54002229BD /* main.m in Sources */,
