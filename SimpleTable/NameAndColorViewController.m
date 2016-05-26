@@ -11,7 +11,7 @@
 
 static NSString *CellTableIdentifier = @"CellTableIdentifier";
 
-@interface NameAndColorViewController ()
+@interface NameAndColorViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (copy, nonatomic) NSArray *computers;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @end

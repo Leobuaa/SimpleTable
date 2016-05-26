@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NameAndColorViewController : UIViewController <UITableViewDataSource>
+@interface NameAndColorViewController : UIViewController
 
 @end
