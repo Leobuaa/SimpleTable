@@ -17,6 +17,7 @@
 		B3DE0EE51CF68F54002229BD /* SimpleTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE0EE41CF68F54002229BD /* SimpleTableUITests.m */; };
 		B3DE0EF41CF6A820002229BD /* NameAndColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE0EF31CF6A820002229BD /* NameAndColorCell.m */; };
 		B3DE0EFA1CF6AF24002229BD /* NameAndColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE0EF91CF6AF24002229BD /* NameAndColorViewController.m */; };
+		B3DE0EFE1CF6F06F002229BD /* NameAndColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3DE0EFD1CF6F06F002229BD /* NameAndColorCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		B3DE0EF31CF6A820002229BD /* NameAndColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameAndColorCell.m; sourceTree = "<group>"; };
 		B3DE0EF81CF6AF24002229BD /* NameAndColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameAndColorViewController.h; sourceTree = "<group>"; };
 		B3DE0EF91CF6AF24002229BD /* NameAndColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameAndColorViewController.m; sourceTree = "<group>"; };
+		B3DE0EFD1CF6F06F002229BD /* NameAndColorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NameAndColorCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				B3DE0ECD1CF68F54002229BD /* LaunchScreen.storyboard */,
 				B3DE0ED01CF68F54002229BD /* Info.plist */,
 				B3DE0EBF1CF68F54002229BD /* Supporting Files */,
+				B3DE0EFD1CF6F06F002229BD /* NameAndColorCell.xib */,
 			);
 			path = SimpleTable;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3DE0EFE1CF6F06F002229BD /* NameAndColorCell.xib in Resources */,
 				B3DE0ECF1CF68F54002229BD /* LaunchScreen.storyboard in Resources */,
 				B3DE0ECC1CF68F54002229BD /* Assets.xcassets in Resources */,
 				B3DE0ECA1CF68F54002229BD /* Main.storyboard in Resources */,

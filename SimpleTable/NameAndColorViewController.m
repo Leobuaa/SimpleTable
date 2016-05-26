@@ -27,11 +27,16 @@ static NSString *CellTableIdentifier = @"CellTableIdentifier";
                        @{@"Name" : @"Mac Mini", @"Color" : @"Silver"},
                        @{@"Name" : @"Mac Pro", @"Color" : @"Black"}];
     
-    [self.tableView registerClass:[NameAndColorCell class] forCellReuseIdentifier:CellTableIdentifier];
+    UINib *nib = [UINib nibWithNibName:@"NameAndColorCell" bundle:nil];
+    [self.tableView registerNib:nib forCellReuseIdentifier:CellTableIdentifier];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [self.computers count];
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 65;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
